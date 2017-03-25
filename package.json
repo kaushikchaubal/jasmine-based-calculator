@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "start": "node src/index.js",
     "test": "jasmine JASMINE_CONFIG_PATH=\"test/jasmine.json\""
   },
   "repository": {
@@ -21,5 +22,8 @@
   "homepage": "https://github.com/kaushikchaubal/jasmine-based-calculator#readme",
   "devDependencies": {
     "jasmine": "^2.5.3"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
   }
 }
