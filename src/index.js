@@ -4,6 +4,8 @@ var app = express();
 var Calculator = require('../src/Calculator');
 var calculator = new Calculator();
 
+var port = process.env.PORT || 3000;
+
 app.get('/sum', function (req, res) {
     let firstNumber = req.query.firstNumber;
     let secondNumber = req.query.secondNumber;
@@ -13,9 +15,9 @@ app.get('/sum', function (req, res) {
 })
 
 app.get('/', function (req, res) {
-    res.send('Hello User - use the correct endpoint to use the Calculator events!')
+    res.send('Hello User - use the correct endpoint to use the Calculator events!');
 })
 
-app.listen(3000, function () {
-    console.log('Jasmine-based Calculator running on port 3000!')
+app.listen(port, function () {
+    console.log('Jasmine-based Calculator running on port' + port);
 })

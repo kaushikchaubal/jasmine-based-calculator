@@ -1,0 +1,7 @@
+{
+  "name": "jasmine-based-calculator",
+  "description": "Simple express-based calculator unit-tested using Jasmine",
+  "repository": "https://github.com/kaushikchaubal/jasmine-based-calculator",
+  "logo": "https://github.com/kaushikchaubal/jasmine-based-calculator",
+  "keywords": ["node", "express", "jasmine"]
+}

@@ -1,7 +1,7 @@
 {
   "name": "jasmine-based-calculator",
   "version": "0.0.1",
-  "description": "Simple calculator unit-tested using Jasmine",
+  "description": "Simple express-based calculator unit-tested using Jasmine",
   "main": "index.js",
   "directories": {
     "test": "test"
