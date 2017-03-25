@@ -1,0 +1,22 @@
+{
+  "name": "jasmine-based-calculator",
+  "version": "0.0.1",
+  "description": "Simple calculator unit-tested using Jasmine",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine JASMINE_CONFIG_PATH=\"test\\jasmine.json\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushikchaubal/jasmine-based-calculator.git"
+  },
+  "author": "kaushikchaubal@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaushikchaubal/jasmine-based-calculator/issues"
+  },
+  "homepage": "https://github.com/kaushikchaubal/jasmine-based-calculator#readme"
+}
